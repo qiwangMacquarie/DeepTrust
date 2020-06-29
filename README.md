@@ -90,8 +90,7 @@ In our paper, we used the following methods for comparison:
 
 
 ## Cite
-If you find this repository useful in your research, please cite our paper:
-
+If you find this repository useful in your research, please cite our paper:   
 @inproceedings{wang2019deeptrust,
   title={DeepTrust: A Deep User Model of Homophily Effect for Trust Prediction},
   author={Wang, Qi and Zhao, Weiliang and Yang, Jian and Wu, Jia and Hu, Wenbin and Xing, Qianli},
