@@ -19,14 +19,13 @@ src/ contains the implementation of the proposed DeepTrust method.
 - Input
   * We store the input file in database and the structure of the input file is: (Trustor, Trustee, Trust Value).
   Some examples of input file are as follows:
-Trustor     | Trustee       | Trust Value                         | Default
-      ----------    |------------|------------------------------------ |-------------
-      1      | 2        | 0           |5
-      --batch_size  | INT        | Size of batch to train in each epoch|5000
-      --lr          | FLOAT      | Learning rate                       |0.1
-      --decay       | FLOAT      | Deacy speed of learning rate        |1.1
-      --negNum      | INT        | Number of negative instances        |5
-      --save_dir    | PATH       | Path to save runing log             |log/
+Trustor     | Trustee       | Trust Value                         
+      ----------    |------------|------------------------------------ 
+      1     | 2        | 0           
+      2     | 3        | 1
+      3     | 4        | 0                     
+      4     |5         | 1       
+               
  
   The first two columns indicates the user pairs. The third column is the trust values between user pairs, 
   with value "1" indicating there are trust relations between users while value "0" indicating without trust relations.
