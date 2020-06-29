@@ -17,7 +17,7 @@ src/ contains the implementation of the proposed DeepTrust method.
 ### Input and options
 
 - Input
-  We store the input file in database and the structure of the input file is: (Trustor, Trustee, Trust Value).
+  * We store the input file in database and the structure of the input file is: (Trustor, Trustee, Trust Value).
   Some examples of input file are as follows:
 
    Trustor    Trustee    Trust Value
