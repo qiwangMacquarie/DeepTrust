@@ -49,7 +49,7 @@ Train our DeepTrust model on the deafult Epinions dataset, output the performanc
 For trust prediction task, we use widely used prediction accurcy as evaluation metric. 
 
 
-We run python src/main.py with default epoch number (5) and test ratio (10%), and the result is as follows:
+We run python src/main.py with default epoch number (5) and test ratio (20%), and the result is as follows:
 
 	begin to train the model at Fri Jun 26 10:49:13 2020
 	Creating negative instaces finished: 47970.70s
