@@ -1,7 +1,7 @@
-# DeepTrust: A Deep User Model of Homophily Effect for Trust Prediction 
+# DeepTrust
 
 ## Overview
-This repository is constituted of the follows sections:
+This repository is Python implementation of the method proposed in "DeepTrust: A Deep User Model of Homophily Effect for Trust Prediction ", Qi Wang, Weiliang Zhao, Jian Yang, Jia Wu, Wenbin Hu, Qianli Xing, ICDM 2019. It is constituted of the follows sections:
 input/ contains example data of Epinions;
 src/ contains the implementation of the proposed DeepTrust method.
 
