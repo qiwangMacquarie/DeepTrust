@@ -20,6 +20,14 @@ src/ contains the implementation of the proposed DeepTrust method.
   * We store the input file in database and the structure of the input file is: (Trustor, Trustee, Trust Value).
   Some examples of input file are as follows:
 
+         Trusor     | Trustee    | Trust Value                       
+      ------------- |------------|-------------
+            0       |     1      |     1       
+            1       |     2      |     0
+            2       |     3      |     1           
+            3       |     4      |     0      
+      ------------------------------------------
+
    Trustor    Trustee    Trust Value
       0	        1	      1
       1	        2	      0 
@@ -94,12 +102,11 @@ If you find this repository useful in your research, please cite our paper:
 @inproceedings{wang2019deeptrust,
   title={DeepTrust: A Deep User Model of Homophily Effect for Trust Prediction},
   author={Wang, Qi and Zhao, Weiliang and Yang, Jian and Wu, Jia and Hu, Wenbin and Xing, Qianli},
-  booktitle={2019 IEEE International Conference on Data Mining},
+  booktitle={2019 IEEE International Conference on Data Mining (ICDM)},
   pages={618--627},
   year={2019},
   organization={IEEE}
 }
-
 
 
 
