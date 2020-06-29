@@ -2,7 +2,7 @@
 
 ## Overview
 This repository is constituted of the follows sections:
-input/ contains example data of Epinions and Ciao;
+input/ contains example data of Epinions;
 src/ contains the implementation of the proposed DeepTrust method.
 
 
@@ -27,7 +27,7 @@ Trustor     | Trustee       | Trust Value
       4     |5         | 1       
                
  
-  The first two columns indicates the user pairs. The third column is the trust values between user pairs, 
+  The first two columns indicates the IDs of user pairs. The third column is the trust values between user pairs, 
   with value "1" indicating there are trust relations between users while value "0" indicating without trust relations.
   You can set an input graph in different forms as you want such as .txt format.
 
