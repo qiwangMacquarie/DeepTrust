@@ -21,7 +21,7 @@ src/ contains the implementation of the proposed DeepTrust method.
   Some examples of input file are as follows:
 Trustor     | Trustee       | Trust Value                         | Default
       ----------    |------------|------------------------------------ |-------------
-      --niter       | INT        | Number of epochs to train           |5
+      1      | 2        | 0           |5
       --batch_size  | INT        | Size of batch to train in each epoch|5000
       --lr          | FLOAT      | Learning rate                       |0.1
       --decay       | FLOAT      | Deacy speed of learning rate        |1.1
